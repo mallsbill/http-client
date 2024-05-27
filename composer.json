@@ -1,0 +1,17 @@
+{
+    "name": "pephpit/http-client",
+    "description": "Pephpit Http Client",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pephpit\\HttpClient\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "curl": ">=7.34.0"
+    },
+    "require-dev": {
+        "atoum/atoum": "^3.0.0"
+    }
+}
